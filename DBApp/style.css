@@ -1,0 +1,172 @@
+        body {
+            background-color: 
+            rgb(100,100,100);
+        }
+
+label {
+    color: white;
+    margin-left: 20px;
+}
+/******************** TABLE ***************************/
+
+        table, td { 
+            border: 1px solid; 
+            padding: 4px;  
+            margin: 0 auto; 
+            margin-top: 20px; 
+            width: 60%; 
+            color: white; 
+            border-color: black; 
+            margin-bottom: 50px; 
+        }
+        
+        th { 
+            background-color:  rgb(217, 28, 36); 
+            padding: 4px; 
+            border: 1px solid;
+        }
+
+        td, th {
+            width: 22%;
+            border-color: black;
+        }
+
+        th {
+            text-align: center;
+        }
+
+        tr {
+            background-color: rgb(137,137,137);
+        }
+
+        tr:nth-child(odd) {
+            background-color: rgb(175,175,175);
+        }
+        
+        tr:hover {
+            background-color: orange;
+        }
+        a {
+            color: red;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        .delth {
+            width: 1%;
+        }
+
+        .del {
+            text-align: center;  
+            font-weight: bold; 
+            width: 0.5%;
+        }
+
+        .del:hover {
+            background-color: dimgray; 
+             
+            text-decoration: none;
+        }   
+
+        .date{
+            width: 8%; 
+            text-align-last: center;
+        }
+
+        .yellow {
+            background-color: yellow;
+            color: black;
+        }
+        .orange {
+            background-color: orange;
+            color: black;
+        }
+        .red {
+            background-color: lightcoral;
+            color: black;
+        }
+        .black {
+            background-color: black;
+            color: white;
+        }
+        .idcell {
+            width: 4%; 
+            text-align: center;
+        }
+        .price {
+            width: 5%;
+        }
+        .name {
+            width: 10%;
+        }
+
+/******************** TABLE END ***********************/
+        
+        .container{
+            background-color: rgb(41,41,41); 
+            padding: 0.25%; 
+            width: 80%;
+            border-style: solid; 
+            border-width: 2px; 
+            border-color: rgb(200, 0, 28); 
+            border-bottom-left-radius: 20px; 
+            border-bottom-right-radius: 20px; 
+            border-top: none;
+        }
+
+        .center_div { 
+            margin: 0 auto; 
+            width: 66%;
+        }
+        
+        input {
+            margin-top: 20px;
+        }
+
+        p {
+            margin: 0 auto;
+        }
+  
+        #warnings{
+            color: white; 
+            font-size: 16pt; 
+            font-weight: bold; 
+            text-align: center; 
+            width: 50%; 
+            margin: 0 auto;}
+
+        footer {
+            background-color: rgb(217, 28,36);
+            bottom: 0;
+            margin-bottom: 0px; 
+            padding: 2px;  
+            text-align: center;
+            position:fixed; 
+            width: 100%; 
+            color: whitesmoke; 
+            height: 30px; 
+        }
+
+        .logo{ 
+            z-index: 5; 
+            position: fixed;  
+            margin-top: 20%;
+            margin-left: 2%;
+        }
+
+
+
+
+/****** COLOURS FROM ORIGINAL WEBSITE ********* 
+
+body 41 41 41
+light grey : rgb(152,152,152)
+darker: 137 137 137
+
+dark red: 200 0 28
+lighter red: 247 91 101
+
+
+*/
